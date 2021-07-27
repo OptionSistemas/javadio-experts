@@ -4,9 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b65c64e-a00e-441c-9bdf-98a26c42b13c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5b65c64e-a00e-441c-9bdf-98a26c42b13c" name="Default Changelist" comment="Add yml config files">
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/one/digitalinnovation/experts/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/one/digitalinnovation/experts/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/java/one/digitalinnovation/experts/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-discovery/src/test/java/one/digitalinnovation/experts/servicediscovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadio-experts-config/gateway.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadio-experts-config/product-catalog.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadio-experts-config/service-discovery.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadio-experts-config/shopping-cart.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-catalog/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/product-catalog/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-catalog/src/main/java/one/digitalinnovation/experts/productcatalog/ProductCatalogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-catalog/src/main/java/one/digitalinnovation/experts/productcatalog/ProductCatalogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-catalog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-catalog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +47,13 @@
     <projectState path="$PROJECT_DIR$/config-server">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/product-catalog">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/service-discovery">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/shopping-cart">
@@ -30,29 +66,44 @@
         <task path="$PROJECT_DIR$/product-catalog">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/config-server">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/service-discovery">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="product-catalog" type="f1a62948:ProjectNode" />
+                <item name="config-server" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="product-catalog" type="f1a62948:ProjectNode" />
+                <item name="config-server" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="product-catalog" type="f1a62948:ProjectNode" />
+                <item name="config-server" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="product-catalog" type="f1a62948:ProjectNode" />
+                <item name="service-discovery" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="service-discovery" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="service-discovery" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -72,12 +123,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vriA5yflhDjQonsZ1uTbyT0KRG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -87,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,24 +153,64 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductCatalogApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ServiceDiscoveryApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="config-server [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config-server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="product-catalog [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/product-catalog" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="service-discovery [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service-discovery" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -141,9 +235,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="one.digitalinnovation.experts.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductCatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-catalog.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="one.digitalinnovation.experts.productcatalog.ProductCatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-discovery.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="one.digitalinnovation.experts.servicediscovery.ServiceDiscoveryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,6 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.service-discovery [bootRun]" />
+        <item itemvalue="Gradle.config-server [bootRun]" />
         <item itemvalue="Gradle.product-catalog [bootRun]" />
       </list>
     </recent_temporary>
@@ -170,8 +280,17 @@
       <option name="presentableId" value="Default" />
       <updated>1627326463756</updated>
       <workItem from="1627326465312" duration="2553000" />
-      <workItem from="1627337577195" duration="5810000" />
+      <workItem from="1627337577195" duration="6586000" />
+      <workItem from="1627388085652" duration="8150000" />
     </task>
+    <task id="LOCAL-00001" summary="Add yml config files">
+      <created>1627343716519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627343716519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,5 +306,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add yml config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add yml config files" />
   </component>
 </project>
